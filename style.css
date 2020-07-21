@@ -1,0 +1,21 @@
+.content {
+    background-color: #F5F5F5;
+    color: #3d3d3d;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+}
+
+.name {
+    font-size: 90px;
+    font-weight: lighter;
+    line-height: 80%;
+}
+
+.vertical-line {
+    border-left: thick solid #1e90ff;
+}
