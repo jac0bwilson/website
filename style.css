@@ -3,11 +3,11 @@
     color: #3d3d3d;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
+    padding-top: 6vw;
 }
 
 .description {
-    position: absolute;
-    bottom: 0;
+    font-size: 18px;
 }
 
 .name {
@@ -16,6 +16,17 @@
     line-height: 80%;
 }
 
+.social-link {
+    color: #3d3d3d;
+    text-decoration: none;
+    transform: 0.4s;
+}
+
+.social-link:hover {
+    color: #2F52E0;
+    text-decoration: none;
+}
+
 .vertical-line {
-    border-left: thick solid #1e90ff;
+    border-left: thick solid #2F52E0;
 }
