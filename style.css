@@ -1,32 +1,46 @@
+:root {
+    --accent-colour: #2F52E0;
+    --background-colour: #F5F5F5;
+    --text-colour: #3D3D3D
+}
+
+body {
+    background-color: var(--background-colour);
+}
+
 .content {
-    background-color: #F5F5F5;
-    color: #3d3d3d;
+    color: var(--text-colour);
     font-family: 'Poppins', sans-serif;
+    font-size: 17px;
     padding: 25px;
-    padding-top: 6vw;
+    padding-top: 2vw;
 }
 
 .description {
-    font-size: 18px;
+    padding: 10px;
 }
 
 .name {
-    font-size: 90px;
+    font-size: 95px;
     font-weight: lighter;
-    line-height: 80%;
+    line-height: 100%;
+}
+
+.photography {
+    padding: 5px;
 }
 
 .social-link {
-    color: #3d3d3d;
+    color: var(--text-colour);
     text-decoration: none;
     transform: 0.4s;
 }
 
 .social-link:hover {
-    color: #2F52E0;
+    color: var(--accent-colour);
     text-decoration: none;
 }
 
 .vertical-line {
-    border-left: thick solid #2F52E0;
+    border-left: thick solid var(--accent-colour);
 }
