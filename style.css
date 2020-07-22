@@ -1,11 +1,25 @@
-:root {
+body {
     --accent-colour: #2F52E0;
     --background-colour: #F5F5F5;
-    --text-colour: #3D3D3D
+    --text-colour: #3D3D3D;
+    background-color: var(--background-colour);
 }
 
-body {
-    background-color: var(--background-colour);
+.btn-toggle {
+    background-color: var(--accent-colour);
+    border: none;
+    border-radius: 50%;
+    bottom: 40px;
+    color: var(--text-colour);
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    text-align: center;
+    width: 60px;
+}
+
+.btn-toggle:focus {
+    outline: none;
 }
 
 .content {
@@ -14,6 +28,12 @@ body {
     font-size: 17px;
     padding: 25px;
     padding-top: 2vw;
+}
+
+.dark-mode {
+    --background-colour: #3D3D3D;
+    --text-colour: #F5F5F5;
+    background-color: var(--background-colour);
 }
 
 .description {
