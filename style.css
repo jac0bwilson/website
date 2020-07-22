@@ -28,6 +28,7 @@ body {
     font-size: 17px;
     padding: 25px;
     padding-top: 2vw;
+    width: 100%;
 }
 
 .dark-mode {
@@ -63,4 +64,10 @@ body {
 
 .vertical-line {
     border-left: thick solid var(--accent-colour);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        position: absolute;
+    }
 }
