@@ -41,6 +41,11 @@ body {
     padding: 10px;
 }
 
+.image {
+    height: auto;
+    max-width: 100%;
+}
+
 .name {
     font-size: 95px;
     font-weight: lighter;
@@ -64,10 +69,4 @@ body {
 
 .vertical-line {
     border-left: thick solid var(--accent-colour);
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        position: absolute;
-    }
 }
