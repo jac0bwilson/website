@@ -1,6 +1,7 @@
 body {
     --accent-colour: #3993DD;
     --background-colour: #F5F5F5;
+    --secondary-background-colour: #EBEBEB;
     --text-colour: #3D3D3D;
     background-color: var(--background-colour);
 }
@@ -37,6 +38,7 @@ body {
 
 .dark-mode {
     --background-colour: #3D3D3D;
+    --secondary-background-colour: #474747;
     --text-colour: #F5F5F5;
     background-color: var(--background-colour);
 }
@@ -57,6 +59,30 @@ body {
 }
 
 .photography {
+    padding: 5px;
+}
+
+.project {
+    background-color: var(--secondary-background-colour);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+    padding: 20px;
+}
+
+.project-link {
+    color: var(--text-colour);
+    float: right;
+    text-decoration: none;
+    transform: 0.4s;
+}
+
+.project-link:hover {
+    color: var(--accent-colour);
+    text-decoration: none;
+}
+
+.projects {
     padding: 5px;
 }
 
